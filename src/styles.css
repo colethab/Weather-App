@@ -1,6 +1,5 @@
 body {
   margin-top: 25px;
-  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
 }
 h2 {
   color: blue;
@@ -28,6 +27,9 @@ li {
   height: 19px;
   line-height: 1;
   text-align: left;
+}
+.border {
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
 }
 .fa-sun {
   color: gold;
