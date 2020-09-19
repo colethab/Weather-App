@@ -27,6 +27,7 @@ li {
 }
 .border {
   background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+  border-radius: 15px;
 }
 .fa-sun {
   color: gold;
@@ -45,4 +46,5 @@ li {
   max-width: 1200px;
   margin-top: 15px;
   padding: 20px;
+  border-radius: 15px;
 }
