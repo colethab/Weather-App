@@ -42,9 +42,11 @@ li {
   font-size: 100px;
   margin-top: 40px;
 }
-.weather-app {
+.weather-app-wrapper {
   max-width: 1200px;
   margin-top: 15px;
+}
+.weather-app {
   padding: 20px;
   border-radius: 15px;
 }
