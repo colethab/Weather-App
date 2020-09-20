@@ -29,14 +29,6 @@ li {
   background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
   border-radius: 15px;
 }
-.fa-sun {
-  color: gold;
-  font-size: 30px;
-}
-.fa-cloud-sun {
-  color: grey;
-  font-size: 30px;
-}
 .weather-icon {
   font-size: 100px;
   margin-top: 20px;
