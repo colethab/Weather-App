@@ -37,10 +37,10 @@ li {
   color: grey;
   font-size: 30px;
 }
-.fa-cloud-meatball {
-  color: brown;
+.weather-icon {
   font-size: 100px;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .weather-app-wrapper {
   max-width: 1200px;
