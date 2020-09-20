@@ -50,3 +50,8 @@ li {
   padding: 20px;
   border-radius: 15px;
 }
+.units {
+  position: relative;
+  font-size: 14px;
+  top: -1px;
+}
