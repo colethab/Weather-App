@@ -53,20 +53,23 @@
             </form>
             <div class="row">
               <div class="col-4">
-                <h2 id="city"></h2>
-                <ul>
-                  <li id="date"></li>
-                  <li>
-                    Current Temp
-                    <span class="temperature" id="temperature"></span>
-                    <span class="units">
-                      <a href="#" id="celcius-link">°C </a> | °F
-                    </span>
-                  </li>
-                  <li>humidity: <span id="humidity"></span>%</li>
-                  <li>wind: <span id="wind"></span>km/h</li>
-                  <li id="description"></li>
-                </ul>
+                <div class="clearfix weather-temperature">
+                  <h2 id="city"></h2>
+                  <ul>
+                    <li id="date"></li>
+                    <li>
+                      Current Temp
+                      <span class="temperature" id="temperature"></span>
+                      <span class="units">
+                        <a href="#" id="celsius-link" class="active">°C </a> |
+                        <a href="#" id="fahrenheit-link">°F </a>
+                      </span>
+                    </li>
+                    <li>humidity: <span id="humidity"></span>%</li>
+                    <li>wind: <span id="wind"></span>km/h</li>
+                    <li id="description"></li>
+                  </ul>
+                </div>
               </div>
               <div class="weather-icon">
                 <div class="col-3">

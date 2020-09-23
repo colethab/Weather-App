@@ -38,8 +38,15 @@ li {
   padding: 20px;
   border-radius: 15px;
 }
-.units {
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
   position: relative;
   font-size: 14px;
   top: -1px;
 }
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
