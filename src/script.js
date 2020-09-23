@@ -76,10 +76,6 @@ function convertToCelsius(event) {
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = 19;
 }
-function displayCelciusTemperature(event) {
-  event.preventDefault();
-  alert("Link clicked");
-}
 
 //feature 1
 let dateElement = document.querySelector("#date");
@@ -93,6 +89,3 @@ searchForm.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 searchCity("New York");
-
-let celciusLink = document.querySelector("#celcius-link");
-celciusLink.addEventListener("click", displayCelciusTemperature);
